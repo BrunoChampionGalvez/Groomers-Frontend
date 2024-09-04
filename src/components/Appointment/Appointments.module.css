@@ -1,0 +1,33 @@
+.appointmentsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.headerTableContainer {
+    display: flex;
+    min-width: 25rem;
+}
+
+.servicioTitle {
+    width: 25rem;
+    text-align: center;
+}
+
+.datosTitle {
+    width: 10rem;
+    text-align: center;
+}
+
+.datosDiv {
+    width: 146.125px;
+}
+
+.hr {
+    height: 2px;
+    width: 110%;
+    background-color: gray;
+}

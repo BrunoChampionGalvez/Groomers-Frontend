@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "front/dist"
+
+[dev]
+  command = "vite"
+  port = 3000

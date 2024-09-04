@@ -1,0 +1,81 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default quote */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* Remove default quote */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* Remove default button styling */
+button {
+  appearance: none;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+@font-face {
+  font-family: 'IM Fell Great Primer SC';
+  src: url('./fonts/IMFellGreatPrimerSC-Regular.ttf') format('truetype')
+  /* Add other font formats if necessary */
+}
+
+/* Standardize font family */
+body {
+  font-family: "IM Fell Great Primer SC", serif;
+}
+
+/* Standardize font size */
+body {
+  font-size: 16px;
+}
+
+/* Standardize line height */
+body {
+  line-height: 1.5;
+}
+
+/* Remove focus outline */
+*:focus {
+  outline: none;
+}

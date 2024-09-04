@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(255, 244, 230);
+}
+
+.navitems-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navitems-container li {
+    list-style: none;
+}
+
+.nav div {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.register-login-container a {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff727e;
+    font-weight: bolder;
+}
+
+
+.logo img {
+    margin-right: 2em;
+    width: 10em;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.profile-picture {
+    width: 5em;
+    border-radius: 5em;
+}

@@ -1,0 +1,58 @@
+.appointment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableServicio {
+    min-width: 25rem;
+    max-width: 25rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex: 1;
+}
+
+p {
+    min-width: 10rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.active {
+    color: green;
+}
+
+.cancelled {
+    color: red;
+}
+
+.buttonActive {
+    font-size: 1.5rem;
+    font-family: "IM Fell Great Primer SC", serif;
+    background-color: #24907B;
+    height: 100%;
+    border-radius: .4rem;
+    color: rgb(255, 244, 230);
+    margin-left: 2.5rem;
+    cursor: pointer;
+    border: 1px solid #24907B;
+    transition: 200ms;
+}
+
+.buttonActive:hover {
+    background-color: antiquewhite;
+    color: #24907B;
+}
+
+.buttonInactive {
+    font-size: 1.5rem;
+    font-family: "IM Fell Great Primer SC", serif;
+    background-color: #24907B;
+    height: 100%;
+    border-radius: .4rem;
+    color: rgb(255, 244, 230);
+    margin-left: 2.5rem;
+    border: 1px solid #24907B;
+    filter: grayscale(1);
+}

@@ -1,0 +1,97 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 230, 204);
+    min-height: calc(100vh - 157.884px);
+    max-height: max-content;
+    align-items: center;
+}
+
+.loginTitle {
+    text-align: center;
+    font-size: 2rem;
+    color: #009B7D;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    width: 30%;
+    border-radius: .5rem;
+    margin-bottom: 4rem;
+    padding-top: 1.5rem;
+    gap: .5rem;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    width: 100%;
+}
+
+.inputField input {
+    outline: none;
+    width: 70%;
+    font-size: .9rem;
+    padding: .4rem;
+    border: none;
+}
+
+.inputField input:hover,
+.inputField input:focus {
+    outline: none;
+}
+
+.inputField p {
+    font-size: .9rem;
+    width: 70%;
+    height: 21.594px;
+}
+
+.inputField label {
+    font-size: 1.2rem;
+}
+
+.loginButton {
+    font-size: 1.3rem;
+    font-family: "IM Fell Great Primer SC";
+    margin-bottom: 2rem;
+    background-color: #009B7D;
+    width: max-content;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    color: white;
+    transition: 200ms;
+    border: 2px solid #009B7D;
+    margin-top: 1em;
+}
+
+.loginButton:hover {
+    color: #009B7D;
+    background-color: white;
+    border: 2px solid #009B7D;
+}
+
+.disabledLoginButton {
+    font-size: 1.3rem;
+    font-family: "IM Fell Great Primer SC";
+    margin-bottom: 2rem;
+    background-color: #649c91;
+    width: max-content;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    color: white;
+    transition: 200ms;
+    border: 2px solid #649c91;
+    margin-top: 1em;
+}

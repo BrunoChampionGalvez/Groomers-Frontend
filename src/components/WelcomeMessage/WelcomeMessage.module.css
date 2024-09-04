@@ -1,0 +1,44 @@
+.welcomeMessageContainer {
+    background-color: #009B7D;
+    min-height: calc(100vh - 157.884px);
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.homeTitle {
+    font-size: 5rem;
+    color: antiquewhite;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.homePhrase {
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
+.titlePhraseContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reserveButton {
+    background-color: #ff727e;
+    font-size: 1.7rem;
+    padding: .7rem 1.2rem;
+    transition: 300ms;
+    border-radius: .5rem;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.reserveButton:hover {
+    background-color: antiquewhite;
+    color: #ff727e;
+}

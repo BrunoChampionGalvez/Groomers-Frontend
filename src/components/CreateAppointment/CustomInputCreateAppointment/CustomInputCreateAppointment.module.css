@@ -1,0 +1,28 @@
+.registerInput {
+    border-radius: .3em;
+}
+
+.inputError {
+    box-shadow: 0 0 2px 2px rgb(247, 62, 62);
+    border-radius: .3em;
+}
+
+.inputError:hover {
+    box-shadow: 0 0 2px 2px rgb(247, 62, 62) !;
+}
+
+.errorMessage {
+    color: rgb(247, 62, 62);
+    font-weight: bold;
+}
+
+.inputFieldTitle {
+    font-size: 1.4rem;
+    margin-bottom: .8rem;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+}
+

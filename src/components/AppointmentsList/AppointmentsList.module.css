@@ -1,0 +1,74 @@
+.appointmentsAndTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    padding: 2rem 4rem;
+    margin-top: 3rem;
+    border-radius: .7rem;
+    width: 1100px;
+    box-sizing: content-box;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.appointmentsTitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+}
+
+.appointmentsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.headerTableContainer {
+    display: flex;
+    min-width: 25rem;
+}
+
+.servicioTitle {
+    width: 25rem;
+    text-align: center;
+}
+
+.datosTitle {
+    width: 10rem;
+    text-align: center;
+}
+
+.datosDiv {
+    width: 146.125px;
+}
+
+.hr {
+    height: 2px;
+    width: 110%;
+    background-color: gray;
+}
+
+.showCreateAppointmentButton {
+    position: absolute;
+    top: 2.5rem;
+    right: 3rem;
+    background-color: #009B7D;
+    color: white;
+    border: 2px solid #009B7D;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.showCreateAppointmentButton:hover {
+    background-color: antiquewhite;
+    color: #009B7D;
+    border: 2px solid #009B7D;
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    overflow: hidden;
+    height: 120vh;
+}
+
+.dog2 {
+    width: 50%;
+    filter: grayscale(.3);
+    object-fit: cover;
+}
+
+.containerTitleServices {
+    background-color: antiquewhite;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding-top: 5rem;
+}
+
+.titleServices {
+    text-decoration: none;
+    padding: .2rem 1rem;
+    border: 3px solid rgb(49, 49, 49);
+    font-size: 3rem;
+}
+
+.containerServices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.service {
+    font-size: 1.5rem;
+}
+
+.titleServices, .service {
+    color: rgb(49, 49, 49);
+}
