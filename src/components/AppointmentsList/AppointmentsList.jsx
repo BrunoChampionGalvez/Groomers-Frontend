@@ -17,7 +17,7 @@ const AppointmentsList = ({handleShowCreate, showCreateForm}) => {
                 return;
             }
             try {
-                const response = await axios.get(`http://localhost:3000/users/${user.id}`);
+                const response = await axios.get(`https://groomers-backend.onrender.com/users/${user.id}`);
                 const appointments = response.data.user.appointments
                 appointments.sort((a, b) => b.id - a.id)
                 dispatch(addUserAppointments(appointments))

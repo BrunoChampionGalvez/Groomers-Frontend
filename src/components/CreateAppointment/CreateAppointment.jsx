@@ -25,7 +25,7 @@ const CreateAppointment = ({handleShowCreate, showCreateForm}) => {
 
     useEffect(() => {
         const fetchAppointments = async () => {
-            const response = await axios.get("http://localhost:3000/appointments")
+            const response = await axios.get("https://groomers-backend.onrender.com/appointments")
             setId(response.data.appointments.length + 1)
         }
         fetchAppointments()
@@ -38,7 +38,7 @@ const CreateAppointment = ({handleShowCreate, showCreateForm}) => {
                 userId: user.id
             }
             const response = await toast.promise(
-                axios.post("http://localhost:3000/appointment/schedule", appointmentToAddToBack),
+                axios.post("https://groomers-backend.onrender.com/appointment/schedule", appointmentToAddToBack),
                 {
                     pending: 'Cargando...',
                     success: '¡Turno creado!',

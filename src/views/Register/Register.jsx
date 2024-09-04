@@ -12,7 +12,7 @@ const Register = () => {
     const handleOnSubmit = async (values, { setSubmitting }) => {
         try {
             const response = await toast.promise(
-                axios.post("http://localhost:3000/users/register", values),
+                axios.post("https://groomers-backend.onrender.com/users/register", values),
                 {
                     pending: 'Cargando...',
                     success: '¡Registro satisfactorio!',

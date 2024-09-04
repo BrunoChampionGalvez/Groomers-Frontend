@@ -22,8 +22,8 @@ function Appointment({ id, title, date, time, status }) {
         }).then(async (result) => {
             if (result.isConfirmed) {
                 try {
-                    await axios.put(`http://localhost:3000/appointment/cancel/${id}`);
-                    const response = await axios.get(`http://localhost:3000/users/${user.id}`);
+                    await axios.put(`https://groomers-backend.onrender.com/appointment/cancel/${id}`);
+                    const response = await axios.get(`https://groomers-backend.onrender.com/users/${user.id}`);
                     const appointments = response.data.user.appointments
                     appointments.sort((a, b) => b.id - a.id)
                     dispatch(addUserAppointments(appointments))
